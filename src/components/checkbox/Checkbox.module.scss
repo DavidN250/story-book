@@ -1,0 +1,22 @@
+.form-check-input{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10%;
+    vertical-align: middle;
+    border: 2px solid #0d6efd;
+    outline: none !important;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form-check-label{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.form-check-input:hover{
+    box-shadow: 0 0 0 0.5rem rgba(135, 136, 138, 0.25);
+}
