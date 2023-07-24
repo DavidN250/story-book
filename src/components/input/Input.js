@@ -11,7 +11,7 @@ function Input({placeholder,type,disabled,onChange}) {
         disabled={disabled} 
         id="" 
         className={`${styles['form-control']}`} 
-        onChange={onclick} 
+        onChange={onChange} 
         />
     </>
   )
