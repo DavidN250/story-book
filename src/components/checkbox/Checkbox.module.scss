@@ -1,22 +1,29 @@
 .form-check-input{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 10%;
-    vertical-align: middle;
-    border: 2px solid #0d6efd;
-    outline: none !important;
-    background-color: transparent;
+    min-width: 18px;
+    min-height: 18px;
+    outline: 2px solid #0678F7!important;
+    margin-right: 20px;
+    box-sizing: border-box;
     display: inline-block;
-    cursor: pointer;
+    border-radius: 20px;
+    border-radius: 0.25em;
+}
+
+.form-check-input[disabled]{
+   opacity: 0.6;
+   cursor: not-allowed;
+   pointer-events: none;
 }
 
 .form-check-label{
     display: inline-block;
     font-size: 20px;
-    margin-left: 1rem;
 }
 
 .form-check-input:hover{
-    box-shadow: 0 0 0 0.5rem rgba(135, 136, 138, 0.25);
+    box-shadow: 0 0 0 .5rem rgba(135, 136, 138, 0.25);
+}
+
+.disabled{
+    cursor: not-allowed;
 }

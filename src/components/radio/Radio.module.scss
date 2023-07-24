@@ -1,0 +1,27 @@
+.form-check-input{
+    min-width: 18px;
+    min-height: 18px;
+    border-radius: 50% !important;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.form-check-input[disabled]{
+   opacity: 0.6;
+   cursor: not-allowed;
+   pointer-events: none;
+}
+
+.form-check-label{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.form-check-input:hover{
+    box-shadow: 0 0 0 .5rem rgba(135, 136, 138, 0.25);
+    border-radius: 10%;
+}
+
+.disabled{
+    cursor: not-allowed;
+}

@@ -18,7 +18,7 @@ export default {
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Static = {
    args: {
-    icon:true,
+    icon:false,
     selected:false,
     disabled:false
   },
@@ -33,8 +33,8 @@ export const WithIcon = {
 
 export const Selected = {
    args: {
-    icon:true,
-    selected:false,
+    icon:false,
+    selected:true,
     disabled:false
   },
 };
@@ -43,6 +43,6 @@ export const Disabled = {
    args: {
     icon:true,
     selected:false,
-    disabled:false
+    disabled:true
   },
 };
