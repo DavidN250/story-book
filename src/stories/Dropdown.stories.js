@@ -9,8 +9,8 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     icon: { control: "boolean" },
-    selected: { control: "boolean" },
     disabled: { control: "boolean" },
+    selected: { control: "boolean" },
     onChange: { action: "changed" },
   },
 };

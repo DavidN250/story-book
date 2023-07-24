@@ -57,6 +57,7 @@ border-radius: .7rem;
 
 .btn-disabled{
     cursor: not-allowed;
+    pointer-events: none;
 }
 
 .icon-margin{
