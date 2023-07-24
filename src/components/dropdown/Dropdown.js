@@ -17,9 +17,9 @@ function Dropdown({icon,selected,disabled,onChange}) {
             type="button" 
             data-bs-toggle="dropdown" 
             aria-expanded="false">
-            {icon ? <FaUserCircle style={userStyle} /> : selected ? <span>Action</span>: disabled?<span>Dropdown button </span>:<span>Dropdown button </span>}<MdOutlineKeyboardArrowDown />
+            {icon ? <FaUserCircle style={userStyle} /> : selected ? <span>Action</span>: disabled?<span>Dropdown button</span>:<span>Dropdown button</span>}<MdOutlineKeyboardArrowDown />
           </button>
-          <ul className={`${styles['dropdown-menu']} ${icon ? styles['icon-margin']:''}`}>
+          <ul className={`${styles['dropdown-menu']} ${icon ? styles['icon-margin']:''} ${styles['dropdown-hidden']}`}>
             <li>
               <a className={`${styles['dropdown-item']}`}  href="#">Action</a>
             </li>

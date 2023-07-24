@@ -41,7 +41,7 @@ export const Selected = {
 
 export const Disabled = {
    args: {
-    icon:true,
+    icon:false,
     selected:false,
     disabled:true
   },
