@@ -36,7 +36,7 @@
 	background-color: #f8fafc;
 }
 .btn:hover{
-	background-color: #d4d5d6;
+	background-color: #f3f0f0;
 }
 .btn-rounded{
 	border-radius: 50%;
@@ -105,6 +105,9 @@ border-radius: 3rem;
     margin-top: 30px;
 }
 
+.dropdown-toggle{
+  background-color: #ffffff;
+}
 .dropdown-toggle:active{
   border: 2px solid #3b84f1;
   background-color: #4179cc;
