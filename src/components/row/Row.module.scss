@@ -47,12 +47,26 @@
 	background-color: #f8fafc;
 }
 
+
+.dropdown{
+    position: relative;
+}
 .dropdown-rounded{
 border-radius: 3rem;
 }
 
-.dropdown{
-    position: relative;
+.dropdown-selected-colored{
+    border: 2px solid #4179cc;
+    background-color: #3b84f1;
+}
+.dropdown-selected{
+    border: 2px solid #4179cc;
+}
+
+.dropdown-hidden{
+    display: none !important;
+    opacity: .4;
+    visibility: none;
 }
 
 .dropdown-menu{

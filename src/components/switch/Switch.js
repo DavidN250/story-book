@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import styles from './Switch.module.scss'
 
-function Switch({label}) {
+function Switch({label,onChange}) {
+  const [isOn,setIsOn]= useState(false)
   return (
-    <div>
-        <div class="form-check form-switch">
-        <input type="checkbox" value="" role="switch" id="" class="form-check-input"/>
-        <label for="">{label}</label>
-    </div>
-    </div>
+    <div className={`${styles['form-check']}`}>
+   <label className={`${styles['form-switch']}`}>
+    <input type="checkbox" onChange={onChange} onClick={()=>(setIsOn(!isOn))}/>
+   <span className={`${styles['slider']} ${styles['round']}`}></span>
+  </label>
+  <label htmlFor="">{isOn?'On':label}</label>
+</div>
   )
 }
 
